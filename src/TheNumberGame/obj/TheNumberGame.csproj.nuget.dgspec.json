@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\TheNumberGame.csproj": {}
+    "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\TheNumberGame.csproj": {}
   },
   "projects": {
-    "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\TheNumberGame.csproj": {
+    "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\TheNumberGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\TheNumberGame.csproj",
+        "projectUniqueName": "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\TheNumberGame.csproj",
         "projectName": "TheNumberGame",
-        "projectPath": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\TheNumberGame.csproj",
+        "projectPath": "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\TheNumberGame.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\obj\\",
+        "outputPath": "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",

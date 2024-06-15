@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AhxaCKA4qGU=",
+  "dgSpecHash": "akZ8YKizAq8=",
   "success": true,
-  "projectFilePath": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\TheNumberGame.csproj",
+  "projectFilePath": "D:\\ITU\\WorkSpace\\Github\\The-Numbers-Game-\\src\\TheNumberGame\\TheNumberGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
