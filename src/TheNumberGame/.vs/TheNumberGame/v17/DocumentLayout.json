@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|d:\\itu\\s4\\prog\\the numbers\\thenumbergame\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|d:\\itu\\s4\\prog\\the numbers\\thenumbergame\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|solutionrelative:controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|d:\\itu\\s4\\prog\\the numbers\\thenumbergame\\wwwroot\\app\\controllers\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06EF5D00-E390-454F-B20C-FE954F90FFE1}|TheNumberGame.csproj|solutionrelative:wwwroot\\app\\controllers\\controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T14:32:44.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GameController.cs",
+              "ToolTip": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Controllers\\GameController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:09:50.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "controller.js",
+              "DocumentMoniker": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\wwwroot\\app\\controllers\\controller.js",
+              "RelativeDocumentMoniker": "wwwroot\\app\\controllers\\controller.js",
+              "ToolTip": "D:\\ITU\\S4\\Prog\\The Numbers\\TheNumberGame\\wwwroot\\app\\controllers\\controller.js",
+              "RelativeToolTip": "wwwroot\\app\\controllers\\controller.js",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAwL8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-11T06:57:35.296Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

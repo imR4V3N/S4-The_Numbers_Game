@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "The Number Game";
+}
+<div class="bt-restart">
+    <a href="/">
+        <span class="material-symbols-sharp">replay</span>
+        Restart
+    </a>
+</div>
+
+<div ng-controller="controller">
+    <div class="form-nbPlayer">
+        <label>List number:</label>
+        <div class="list-number">
+            <input type="number" class="number1" ng-model="number1" ng-change="verifNumber(1,100,1)"/>
+            <input type="number" class="number2" ng-model="number2" ng-change="verifNumber(1,100,2)"/>
+            <input type="number" class="number3" ng-model="number3" ng-change="verifNumber(1,100,3)"/>
+            <input type="number" class="number4" ng-model="number4" ng-change="verifNumber(1,100,4)"/>
+            <input type="number" class="number5" ng-model="number5" ng-change="verifNumber(1,100,5)"/>
+            <input type="number" class="number6" ng-model="number6" ng-change="verifNumber(1,100,6)"/>
+            <input type="number" class="number7" ng-model="number7" ng-change="verifNumber(1,100,7)"/>
+        </div>
+        <div>
+            <label>Guessing number :</label>
+            <input type="number" class="number8" ng-model="number8" ng-change="verifNumber(1,1000,8)"/>
+        </div>
+        <label>Player number :</label>
+        <select ng-model="nbPlayer" >
+             <option ng-repeat="nbPlayer in selectPlayerNumber" value="{{nbPlayer}}">{{nbPlayer}}</option>
+        </select>
+        <button ng-click="startGame(nbPlayer)">
+            <span class="material-symbols-sharp">sound_sampler</span>
+            Start
+        </button>
+    </div>
+    <div class="game-container">
+        <h2 class="result-number">{{Number}}</h2>
+        <div class="chrono">
+            <p>{{minutes}} : {{seconds}} : {{milliseconds}}</p>
+        </div>
+
+        <div class="list-container">
+            <div class="list-item" ng-repeat="chiffre in listNumber track by $index" >
+                <p>{{chiffre}}</p>
+            </div>
+        </div>
+        <div class="list-container">
+            <div class="list-item" ng-repeat="player in listPlayer track by $index">
+                <p class="player-name">{{player.name}}</p>
+                <p>{{player.number}}</p>
+                <input type="number" class="{{player.name}}" ng-model="id" ng-change="addByOrder(player)" />
+                <button class="bt-{{player.name}}" ng-click="addReponse(player.name,player.id)">Confirm</button>
+            </div>
+        </div>
+
+        <p class="result-number">{{gameResult}}</p>
+        <br />
+        <div class="form-combinaison">
+            <label>{{listPlayer[0].name}}, enter your combination</label>
+            <input class="input-combinaison" type="text" ng-model="combinaison" ng-change="correctionAutomatic(combinaison)" placeholder="combinaison"/>
+            <button class="bt-combinaison" ng-click="sendCombinaison(combinaison)">Confirm</button>
+        </div>
+    </div>
+</div>
