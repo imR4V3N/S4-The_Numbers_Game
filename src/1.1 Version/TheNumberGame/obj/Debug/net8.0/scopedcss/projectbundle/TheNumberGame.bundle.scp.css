@@ -1,0 +1,53 @@
+/* _content/TheNumberGame/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-b4dlksgfto] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-b4dlksgfto] {
+  color: #0077cc;
+}
+
+.btn-primary[b-b4dlksgfto] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-b4dlksgfto], .nav-pills .show > .nav-link[b-b4dlksgfto] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-b4dlksgfto] {
+  border-top: 1px solid #000000;
+}
+.border-bottom[b-b4dlksgfto] {
+  border-bottom: 1px solid #000000;
+}
+
+.box-shadow[b-b4dlksgfto] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-b4dlksgfto] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-b4dlksgfto] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.footer>div[b-b4dlksgfto]{
+  color: black;
+}

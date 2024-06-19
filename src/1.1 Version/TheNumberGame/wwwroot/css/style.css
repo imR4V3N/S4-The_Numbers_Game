@@ -1,0 +1,139 @@
+﻿main {
+    font-family: cursive;
+    padding: 5em;
+}
+
+button{
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: #0f9b88;
+}
+
+button:hover {
+    background-color: #0b6d60;
+}
+
+.bt-restart{
+    text-align: center;
+    margin-bottom: 20px;
+    display : none;
+}
+.bt-restart a{
+    text-decoration: none;
+    color: white;
+    background-color: #fda93b;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all .2s ease-in;
+}
+.bt-restart a:hover{
+    box-shadow: 0 0 5px #c0791c;
+    color: white;
+}
+.form-nbPlayer{
+    margin: auto;
+    box-shadow: 0 0 5px #3f3f3f;
+    border-radius: 3px;
+    width: fit-content;
+    text-align : center;
+    padding: 5px;
+}
+.list-number {
+    display : flex;
+    flex-wrap : wrap;
+}
+.list-number input {
+    width : 50px;
+    margin : 5px;
+}
+.form-nbPlayer label {
+    display: block;
+    font-size: 17px;
+    font-weight : bold;
+}
+.form-nbPlayer select{
+    width: 20%;
+}
+.form-nbPlayer button {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size:18px;
+}
+.game-container{
+    margin-top: 10px;
+}
+.result-number{
+    text-align:center;
+    
+    width: fit-content;
+    margin: auto;
+}
+.chrono{
+    font-size: 18px;
+    margin: auto;
+    width: fit-content;
+}
+.chrono p{
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #1b89aa;
+}
+.list-container{
+    display:flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    padding:5px;
+    justify-content: center;
+}
+.list-item{
+    padding:2px;
+    text-align:center;
+}
+.player-name{
+    background-color: #1b89aa;
+    color: white;
+}
+.list-item p{
+    border-radius: 2.5px;
+    padding:5px;
+    box-shadow:0 0 3px rgb(63, 63, 63);
+    font-size:20px;
+    margin: 4px;
+}
+.form-combinaison{
+    display : none;
+    margin: auto;
+    width: fit-content;
+    box-shadow: 0 0 5px rgb(63, 63, 63);    
+    border-radius: 3px;
+    padding: 10px;
+}
+.form-combinaison label{
+    display: block;
+}
+
+.form-combinaison > div {
+    display: flex;
+    gap: 1em;
+}
+
+.form-combinaison input{
+    width: 100%;
+}
+.form-combinaison button{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    height: 2em;
+}
+
+input, select {
+    background: #c6f1ea;
+    border: 2px solid;
+}
