@@ -7,4 +7,4 @@
 
 The game was developed on visual studio 2022 using the C# language  and the AngularJs library with a web interface and using the library Microsoft.AspNetCore, Newtonsoft.Json
 
-**Collaborator: [![Severino2642](https://avatars.githubusercontent.com/u/167872625?v=4)](https://github.com/Severino2642)**
+**Collaborator: [Severino2642](https://github.com/Severino2642)**
